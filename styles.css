@@ -77,6 +77,12 @@ img {
         transform: translate(-50%, -50%);
     }
 
+    h2,
+    p {
+        width: 300px;
+        margin: 20px auto;
+    }
+
     button {
         width: 328px;
         height: 67px;
@@ -123,6 +129,10 @@ img {
     .right {
         width: 610px;
 
+        #input-img {
+            display: none;
+        }
+
         button {
             width: 95%;
         }
@@ -141,6 +151,11 @@ img {
     }
 
     .right {
+
+        #input-img {
+            display: none;
+        }
+
         width: 300px;
 
         button {
