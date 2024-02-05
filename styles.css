@@ -112,3 +112,39 @@ img {
     box-sizing: border-box;
     font-size: 32px;
 }
+
+@media only screen and (max-width: 769px) {
+
+    .left {
+        width: 700px;
+        margin: 0;
+    }
+
+    .right {
+        width: 610px;
+
+        button {
+            width: 95%;
+        }
+    }
+}
+
+@media only screen and (max-width: 376px) {
+
+    .left {
+        width: 376px;
+        margin: 0;
+
+        button {
+            width: 95%;
+        }
+    }
+
+    .right {
+        width: 300px;
+
+        button {
+            width: 95%;
+        }
+    }
+}
